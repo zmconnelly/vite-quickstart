@@ -1,15 +1,14 @@
 # Quickstart Template
 
 - Vite
+- Bun
 - Vue
 - Typescript
 - Tailwind
 - Prettier
 
+To init as a fresh repo simply run:
+
 ```bash
-git clone --depth=1 https://github.com/zmconnelly/vite-quickstart.git my-new-repo
-cd my-new-repo
-rm -rf .git
-git init
-bun install && bun upgrade && bun update -i
+bash <(curl -fsSL https://raw.githubusercontent.com/zmconnelly/vite-quickstart/main/quickstart.sh) my-project
 ```
